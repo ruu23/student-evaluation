@@ -1,0 +1,52 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8f5;
+  color: #333;
+}
+
+.title {
+  text-align: center;
+  color: #ff66b2;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.sessions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background-color: #e6ffe6;
+  border: 2px solid #ff66b2;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  width: 80%;
+  transition: transform 0.3s ease;
+  align-items: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.session h2, .session h3 {
+  color: #009966;
+}
+
+button {
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff3399;
+}

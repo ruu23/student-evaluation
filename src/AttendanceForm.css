@@ -1,0 +1,18 @@
+/* AttendanceForm.css */
+.attendance-form {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.submit-btn {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  background-color: #009966;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #007755;
+}
